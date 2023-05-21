@@ -2,6 +2,7 @@ package jenkins.practice;
 
 import java.util.List;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +12,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DemoFindMethod2 {
 	
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void jenkinsTest() throws InterruptedException {
 		
 		String url = "https://www.letskodeit.com/practice";
 
